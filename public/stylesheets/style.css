@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.job-panel {
+  width: 523px;
+  height: 110px;
+  background-color: #ffffff;
+}
+.Java-Developer {
+  width: 102px;
+  height: 14px;
+  font-family: MyriadPro;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0099cc;
+}
+.DANIT-education {
+  font-family: MyriadPro;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+}
+header {
+  width: 640px;
+  height: 145px;
+  background-color: #00ade0;
+}
+.Search-Button {
+  width: 96px;
+  height: 20px;
+  background-color: #003366;
+}
+.Search-Input {
+  width: 523px;
+  height: 20px;
+  background-color: #ffffff;
+  border: solid 1.5px #006699;
+}
+.Job-Finder {
+  width: 139px;
+  height: 21.5px;
+  font-family: MyriadPro;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
