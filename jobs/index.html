@@ -69,19 +69,23 @@
 
     <script>
         function makeRequest() {
-            var request = new window.XMLHttpRequest();
-            request.open('GET', 'OP.json', true);
-            request.onload = function() {
-                putVacancies(JSON.parse(request.responseText));
-            }
+                var i = 1;
 
-            request.onerror= function(data) {
-                console.log(data);
-            }
-            request.send();
+                var request = new window.XMLHttpRequest();
+                request.open('GET', 'OP.json', true);
+                request.onload = function() {
+                    putVacancies(JSON.parse(request.responseText), i);
+                }
+                request.onerror= function(data) {
+                    console.log(data);
+                }
+                i++;
+
+                request.send();
+
         }
 
-        function putVacancies(vacancies) {
+        function putVacancies(vacancies, i) {
 
             var container = document.getElementById('grid');
             var vacancy = document.createElement('div');
@@ -97,7 +101,7 @@
                 vacanContainer.className = 'mdl-card__title mdl-card--expand';
             var vacan = document.createElement('h2');
                 vacan.className = 'mdl-card__title-text';
-            var vacanText = document.createTextNode(vacancies[0].name);
+            var vacanText = document.createTextNode(vacancies[i].name);
               // var vacantext = document.createTextNode(vacancies[0].name);
               // vacan.createTextNode(vacanText);
             vacan.appendChild(vacanText);
@@ -106,7 +110,7 @@
 
             var company = document.createElement('div');
                 company.className = 'mdl-card__supporting-text';
-            var companyText = document.createTextNode(vacancies[0].company);
+            var companyText = document.createTextNode(vacancies[i].company);
                 company.appendChild(companyText);
             newNode.appendChild(company);
 
