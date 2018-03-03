@@ -1,32 +1,32 @@
 [{
   "id" : 1,
-  "name" : "Jemmy overy",
+  "name" : "Java dev",
   "company" : "nike",
   "link" : "http:..."
 },{
   "id" : 2,
-  "name" : "Jemmy overy",
+  "name" : "Full Stack",
   "company" : "nike",
   "link" : "http:..."
 },{
   "id" : 3,
-  "name" : "Jemmy overy",
+  "name" : "Python dev",
   "company" : "nike",
   "link" : "http:..."
 },{
   "id" : 4,
-  "name" : "Jemmy overy",
+  "name" : "Database engineer",
   "company" : "nike",
   "link" : "http:..."
 },{
   "id" : 5,
-  "name" : "Jemmy overy",
+  "name" : "SEO manager",
   "company" : "nike",
   "link" : "http:..."
 },
   {
     "id" : 6,
-    "name" : "John Smith",
+    "name" : "PR specialist",
     "company" : "nike",
     "link" : "http:..."
   }]
